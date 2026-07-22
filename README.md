@@ -1,14 +1,29 @@
 <div align="center">
 
-<img src="assets/logo.jpg" alt="Quilo Cleaner Logo" width="260">
+<img src="assets/logo.jpg" width="240" alt="Quilo Cleaner Logo">
 
-Quilo Cleaner
+# Quilo Cleaner
 
-ابزار مدیریت و پاک‌سازی خودکار پیام‌های انجمن‌های تلگرام
+### ابزار مدیریت و پاک‌سازی خودکار انجمن‌های تلگرام
 
+[![Latest Release](https://img.shields.io/github/v/release/aliasgharshams/Quilo-cleaner?style=for-the-badge)](https://github.com/aliasgharshams/Quilo-cleaner/releases/latest)
 
+[![Downloads](https://img.shields.io/github/downloads/aliasgharshams/Quilo-cleaner/total?style=for-the-badge)](https://github.com/aliasgharshams/Quilo-cleaner/releases)
 
-📢 کانال تلگرام ·💬 پشتیبانی ·📦 آخرین نسخه
+[![Platform](https://img.shields.io/badge/Platform-Ubuntu%20%7C%20Debian-blue?style=for-the-badge)](#پیشنیازها)
+
+<br>
+
+[📦 دانلود آخرین نسخه](https://github.com/aliasgharshams/Quilo-cleaner/releases/latest)
+&nbsp;•&nbsp;
+[📢 کانال تلگرام](https://t.me/YOUR_CHANNEL)
+&nbsp;•&nbsp;
+[💬 پشتیبانی](https://t.me/YOUR_SUPPORT)
+
+</div>
+
+---
+<div align="center">
 
 </div>
 
