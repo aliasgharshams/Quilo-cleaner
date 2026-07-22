@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.jpg" width="240" alt="Quilo Cleaner Logo">
+<img src="assets/logo2.png" width="240" alt="Quilo Cleaner logo2">
 
 # Quilo Cleaner
 
