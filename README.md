@@ -101,7 +101,9 @@ curl -fsSL https://raw.githubusercontent.com/aliasgharshams/Quilo-cleaner/main/i
 
 </div>
 
+```bash
 sudo quilo-cleaner
+```
 
 <div dir="rtl">
 
@@ -109,7 +111,9 @@ sudo quilo-cleaner
 
 </div>
 
+```bash
 sudo systemctl status quilo-cleaner
+```
 
 <div dir="rtl">
 
@@ -117,7 +121,9 @@ sudo systemctl status quilo-cleaner
 
 </div>
 
+```bash
 sudo journalctl -u quilo-cleaner -n 100 --no-pager
+```
 
 <div dir="rtl">
 
@@ -133,76 +139,29 @@ sudo journalctl -u quilo-cleaner -n 100 --no-pager
 
 </div>
 
+```bash
 curl -fsSL https://raw.githubusercontent.com/aliasgharshams/Quilo-cleaner/main/install.sh | sudo bash
+```
 
 <div dir="rtl">
 
-محل فایل‌ها
-
-مورد
-
-مسیر
-
-برنامه اصلی
-
-/usr/local/bin/quilo-cleaner
-
-Worker
-
-/usr/local/lib/quilo-cleaner/quilo-cleaner-worker
-
-سرویس
-
-/etc/systemd/system/quilo-cleaner.service
-
-تنظیمات ربات‌ها
-
-/var/lib/quilo-cleaner/bots.json
-
-امنیت
-
-سورس اصلی پروژه در مخزن عمومی منتشر نمی‌شود.
-
-فایل‌های Release با Minisign امضا می‌شوند.
-
-هش SHA-256 هر باینری در SHA256SUMS قرار دارد.
-
-کلید خصوصی امضا هرگز در GitHub قرار نمی‌گیرد.
-
-توکن ربات‌ها را در Issue، پیام عمومی یا اسکرین‌شات منتشر نکنید.
 
 کانال تلگرام
+```bash
+https://t.me/Quilo_chanell
+```
 
-خبرهای انتشار نسخه‌ها و اطلاعیه‌ها:
 
-عضویت در کانال تلگرام
 
 پشتیبانی
-
-برای گزارش مشکل یا دریافت راهنمایی:
-
-ارتباط با پشتیبانی
-
-هنگام گزارش مشکل، خروجی این دستور را ارسال کنید:
-
-</div>
-
-sudo systemctl status quilo-cleaner --no-pager
-
-<div dir="rtl">
-
-گزارش باگ
-
-برای گزارش باگ می‌توانید از بخشGitHub Issuesاستفاده کنید.
-
-لطفاً توکن ربات یا اطلاعات حساس را داخل Issue قرار ندهید.
-
-<div align="center">
+```bash
+https://t.me/Quilo_support
+```
 
 ساخته‌شده برای مدیریت ساده‌تر انجمن‌های تلگرام
 
-Quilo Cleaner
+Quilo-cleaner
 
 </div>
 
-</div>
+
