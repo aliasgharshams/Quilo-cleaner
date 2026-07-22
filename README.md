@@ -85,7 +85,7 @@ curl -fsSL https://raw.githubusercontent.com/aliasgharshams/Quilo-cleaner/main/i
 
 اطلاعات قبلی ربات‌ها را حفظ می‌کند.
 
-اجرای پنل
+# اجرای پنل
 
 </div>
 
@@ -95,7 +95,7 @@ sudo quilo-cleaner
 
 <div dir="rtl">
 
-وضعیت سرویس
+# وضعیت سرویس
 
 </div>
 
@@ -104,8 +104,8 @@ sudo systemctl status quilo-cleaner
 ```
 
 <div dir="rtl">
-
-مشاهده لاگ‌های سرویس:
+ 
+# مشاهده لاگ‌های سرویس:
 
 </div>
 
@@ -115,15 +115,15 @@ sudo journalctl -u quilo-cleaner -n 100 --no-pager
 
 <div dir="rtl">
 
-حذف برنامه
+# حذف برنامه
 
 از داخل منوی Quilo Cleaner گزینه Uninstall System را انتخاب کنید.
 
 اطلاعات ربات‌ها ممکن است برای نصب بعدی نگه‌داری شوند. پیش از حذف کامل، از فایل تنظیمات نسخه پشتیبان بگیرید.
 
-بروزرسانی
+# بروزرسانی
 
-برای دریافت آخرین نسخه، همان دستور نصب را دوباره اجرا کنید:
+برای دریافت آخرین نسخه، همان دستور نصب را دوباره اجرا کنیدیا در منو گزینه 7 را بزنید:
 
 </div>
 
@@ -134,14 +134,14 @@ curl -fsSL https://raw.githubusercontent.com/aliasgharshams/Quilo-cleaner/main/i
 <div dir="rtl">
 
 
-کانال تلگرام
+# کانال تلگرام
 ```bash
 https://t.me/Quilo_chanell
 ```
 
 
 
-پشتیبانی
+# پشتیبانی
 ```bash
 https://t.me/Quilo_support
 ```
