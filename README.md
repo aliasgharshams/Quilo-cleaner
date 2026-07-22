@@ -1,12 +1,205 @@
-# QUILO Cleaner
+<div align="center">
 
-Official binary releases and installer for QUILO Cleaner.
+<img src="assets/logo.jpg" alt="Quilo Cleaner Logo" width="260">
 
-The proprietary source code is not included in this repository.
+Quilo Cleaner
 
-## Supported systems
+ابزار مدیریت و پاک‌سازی خودکار پیام‌های انجمن‌های تلگرام
 
-- Ubuntu / Debian
-- Linux x86_64
 
-Copyright © 2026 QUILO. All rights reserved.
+
+📢 کانال تلگرام ·💬 پشتیبانی ·📦 آخرین نسخه
+
+</div>
+
+<div dir="rtl">
+
+فهرست مطالب
+
+معرفی
+
+قابلیت‌ها
+
+پیش‌نیازها
+
+نصب
+
+اجرای پنل
+
+وضعیت سرویس
+
+حذف برنامه
+
+بروزرسانی
+
+امنیت
+
+پشتیبانی
+
+معرفی
+
+Quilo Cleaner یک ابزار خط فرمان برای مدیریت ربات‌های تلگرام و پاک‌سازی خودکار پیام‌های انجمن‌ها و Topicها است.
+
+این پروژه به‌صورت باینری منتشر می‌شود و سورس اصلی آن خصوصی است. فایل‌های انتشار با SHA-256 و Minisign بررسی می‌شوند.
+
+قابلیت‌ها
+
+مدیریت چند ربات تلگرام
+
+افزودن، ویرایش و حذف ربات‌ها
+
+مدیریت اتصال‌ها و Topicها
+
+اجرای Worker به‌صورت سرویس systemd
+
+نصب خودکار و امن
+
+حفظ تنظیمات هنگام نصب مجدد
+
+بررسی امضای دیجیتال و هش فایل‌ها
+
+منوی ساده و تعاملی
+
+نگهداری اطلاعات در مسیر محافظت‌شده
+
+پیش‌نیازها
+
+Ubuntu یا Debian
+
+معماری x86_64
+
+دسترسی root یا sudo
+
+اینترنت برای دریافت فایل‌های انتشار
+
+نصب
+
+دستور زیر را اجرا کنید:
+
+</div>
+
+curl -fsSL https://raw.githubusercontent.com/aliasgharshams/Quilo-cleaner/main/install.sh | sudo bash
+
+<div dir="rtl">
+
+نصب‌کننده به‌صورت خودکار:
+
+وابستگی‌های لازم را نصب می‌کند.
+
+آخرین نسخه را از GitHub دریافت می‌کند.
+
+امضای Minisign و هش SHA-256 را بررسی می‌کند.
+
+باینری‌ها و سرویس را نصب می‌کند.
+
+اطلاعات قبلی ربات‌ها را حفظ می‌کند.
+
+اجرای پنل
+
+</div>
+
+sudo quilo-cleaner
+
+<div dir="rtl">
+
+وضعیت سرویس
+
+</div>
+
+sudo systemctl status quilo-cleaner
+
+<div dir="rtl">
+
+مشاهده لاگ‌های سرویس:
+
+</div>
+
+sudo journalctl -u quilo-cleaner -n 100 --no-pager
+
+<div dir="rtl">
+
+حذف برنامه
+
+از داخل منوی Quilo Cleaner گزینه Uninstall System را انتخاب کنید.
+
+اطلاعات ربات‌ها ممکن است برای نصب بعدی نگه‌داری شوند. پیش از حذف کامل، از فایل تنظیمات نسخه پشتیبان بگیرید.
+
+بروزرسانی
+
+برای دریافت آخرین نسخه، همان دستور نصب را دوباره اجرا کنید:
+
+</div>
+
+curl -fsSL https://raw.githubusercontent.com/aliasgharshams/Quilo-cleaner/main/install.sh | sudo bash
+
+<div dir="rtl">
+
+محل فایل‌ها
+
+مورد
+
+مسیر
+
+برنامه اصلی
+
+/usr/local/bin/quilo-cleaner
+
+Worker
+
+/usr/local/lib/quilo-cleaner/quilo-cleaner-worker
+
+سرویس
+
+/etc/systemd/system/quilo-cleaner.service
+
+تنظیمات ربات‌ها
+
+/var/lib/quilo-cleaner/bots.json
+
+امنیت
+
+سورس اصلی پروژه در مخزن عمومی منتشر نمی‌شود.
+
+فایل‌های Release با Minisign امضا می‌شوند.
+
+هش SHA-256 هر باینری در SHA256SUMS قرار دارد.
+
+کلید خصوصی امضا هرگز در GitHub قرار نمی‌گیرد.
+
+توکن ربات‌ها را در Issue، پیام عمومی یا اسکرین‌شات منتشر نکنید.
+
+کانال تلگرام
+
+خبرهای انتشار نسخه‌ها و اطلاعیه‌ها:
+
+عضویت در کانال تلگرام
+
+پشتیبانی
+
+برای گزارش مشکل یا دریافت راهنمایی:
+
+ارتباط با پشتیبانی
+
+هنگام گزارش مشکل، خروجی این دستور را ارسال کنید:
+
+</div>
+
+sudo systemctl status quilo-cleaner --no-pager
+
+<div dir="rtl">
+
+گزارش باگ
+
+برای گزارش باگ می‌توانید از بخشGitHub Issuesاستفاده کنید.
+
+لطفاً توکن ربات یا اطلاعات حساس را داخل Issue قرار ندهید.
+
+<div align="center">
+
+ساخته‌شده برای مدیریت ساده‌تر انجمن‌های تلگرام
+
+Quilo Cleaner
+
+</div>
+
+</div>
