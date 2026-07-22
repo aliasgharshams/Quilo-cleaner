@@ -4,30 +4,11 @@
 
 # Quilo Cleaner
 
+
 ### ابزار مدیریت و پاک‌سازی خودکار انجمن‌های تلگرام
-
-[![Latest Release](https://img.shields.io/github/v/release/aliasgharshams/Quilo-cleaner?style=for-the-badge)](https://github.com/aliasgharshams/Quilo-cleaner/releases/latest)
-
-[![Downloads](https://img.shields.io/github/downloads/aliasgharshams/Quilo-cleaner/total?style=for-the-badge)](https://github.com/aliasgharshams/Quilo-cleaner/releases)
-
-[![Platform](https://img.shields.io/badge/Platform-Ubuntu%20%7C%20Debian-blue?style=for-the-badge)](#پیشنیازها)
-
-<br>
-
-[📦 دانلود آخرین نسخه](https://github.com/aliasgharshams/Quilo-cleaner/releases/latest)
-&nbsp;•&nbsp;
-[📢 کانال تلگرام](https://t.me/YOUR_CHANNEL)
-&nbsp;•&nbsp;
-[💬 پشتیبانی](https://t.me/YOUR_SUPPORT)
-
-</div>
+<bar>
 
 ---
-<div align="center">
-
-</div>
-
-<div dir="rtl">
 
 معرفی
 
