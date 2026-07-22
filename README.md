@@ -2,7 +2,7 @@
 
 <img src="assets/logo3.png" width="240" alt="Quilo Cleaner logo2">
 
-# Quilo Cleaner
+ # Quilo Cleaner
 
 
 
@@ -11,13 +11,9 @@
 
 ---
 
-معرفی
-
+## معرفی Quilo Cleaner
 </div>
 
-<div dir="ltr" align="right">
-
- quilo-claner
  
  یک ابزار خط فرمان برای مدیریت ربات‌های تلگرام و پاک‌سازی خودکار پیام‌های انجمن‌ها و گپ های تاپیک است. 
 
@@ -47,8 +43,17 @@
 نگهداری اطلاعات در مسیر محافظت‌شده
 
 پیش‌نیازها
+</div>
+
+<div dir="ltr" align="right">
 
 Ubuntu یا Debian
+
+</div>
+
+<div dir="rtl">
+
+
 
 معماری x86_64
 
